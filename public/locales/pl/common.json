@@ -1,0 +1,23 @@
+{
+	"pl": "Polski",
+	"en": "Angielski",
+	"change_locale": "Zmień język",
+	"current_locale": "Obecny język",
+	"save.me": "Zapisz mnie!",
+	"your.email": "Twój email",
+	"email.required": "Email jest wymagany",
+	"agreement.required": "Zgoda jest wymagana",
+	"email&&agreement.required": "Zgoda oraz email są wymagane",
+	"categories": "Kategorie",
+	"error": "Uups! Coś poszło nie tak spróbuj ponownie.",
+	"thanks": "Dziękujemy",
+	"share.post": "Udostępnij post:",
+	"read.more": "Czytaj więcej",
+	"caseStudies.more": "Zobacz inne Case Studies",
+	"case.studies.list": "Lista Case Studies",
+	"success.subscribe": "Twój adres mailowy został zapisany do naszej bazy mailingowej. Do usłyszenia wkrótce!",
+	"more": "Więcej",
+	"job.offer": "Oferty pracy",
+	"details": "Szczegóły",
+	"send": "Wyślij"
+}

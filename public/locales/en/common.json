@@ -1,0 +1,23 @@
+{
+	"en": "English",
+	"pl": "Polish",
+	"change_locale": "Change Language",
+	"current_locale": "Current locale",
+	"save.me": "Save me!",
+	"your.email": "Your mail",
+	"email.required": "Email is required",
+	"agreement.required": "Agreement is required",
+	"email&&agreement.required": "Agreement and email is required",
+	"categories": "Categories",
+	"error": "Whoops! Something went wrong please try again.",
+	"thanks": "Thank you",
+	"share.post": "Share post:",
+	"read.more": "Read more",
+	"case.studies.list": "Case Studies list",
+	"caseStudies.more": "See other Case Studies",
+	"success.subscribe": "Your e-mail address has been saved to our mailing database. Looking forward to hear from you soon!",
+	"more": "More",
+	"details": "Details",
+	"job.offer": "Job offers",
+	"send": "Wyślij"
+}
