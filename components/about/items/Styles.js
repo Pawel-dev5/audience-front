@@ -6,7 +6,7 @@ export const StyledTeamCard = styled.div`
 	height: auto;
 	transition: all 0.5s ease 0s;
 	max-width: 55.25rem;
-	box-shadow: rgb(112 112 112 / 20%) 0px 5px 1rem;
+	${({ theme }) => theme.shadow};
 	padding-bottom: 3rem;
 	min-height: 26.12rem;
 

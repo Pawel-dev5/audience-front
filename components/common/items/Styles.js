@@ -556,6 +556,17 @@ export const StyledDescription = styled.p`
 					margin-top: 0rem;
 					margin-bottom: 2rem;
 				`;
+			case 'careerItemMini':
+				return css`
+					margin-left: 0;
+					margin-top: 1.125rem;
+					margin-bottom: 2rem;
+					font-size: 1.25rem;
+					font-weight: ${({ theme }) => theme.light};
+					@media (max-width: ${({ theme }) => theme.breakpoints.md}) {
+						padding: 0;
+					}
+				`;
 			case 'offersCard':
 				return css`
 					margin-top: 1.7rem;

@@ -16,7 +16,7 @@ const Article = ({ global, caseStudy, moreCaseStudies }) => {
 		metaTitle: caseStudy?.attributes?.title,
 		metaDescription: caseStudy?.attributes?.description,
 		shareImage: caseStudy?.attributes?.image,
-		caseStudy: true,
+		article: true,
 	};
 
 	return (

@@ -193,6 +193,22 @@ export const StyledBlogHeader = styled.h1`
 					font-weight: ${({ theme }) => theme.semiBold};
 					max-width: 15rem;
 				`;
+			case 'careerItem':
+				return css`
+					margin: initial;
+					margin-left: 0;
+					text-align: left;
+					margin-bottom: 2rem;
+					width: 100%;
+				`;
+			case 'careerItemMini':
+				return css`
+					margin: initial;
+					margin-left: 0;
+					text-align: left;
+					font-size: 1.5rem;
+					margin-bottom: 1.125rem;
+				`;
 			case 'carrerSecond':
 				return css`
 					margin: 0 auto;
@@ -348,6 +364,14 @@ export const StyledHr = styled.hr`
 			case 'blog':
 				return css`
 					margin-bottom: 4rem;
+				`;
+			case 'careerItem':
+				return css`
+					margin: initial;
+				`;
+			case 'careerItemMini':
+				return css`
+					margin: initial;
 				`;
 			case 'numbers':
 				return css`

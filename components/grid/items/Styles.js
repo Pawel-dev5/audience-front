@@ -31,7 +31,7 @@ export const StyledCard = styled.div`
 	cursor: pointer;
 	width: 100%;
 	height: 28.75rem;
-	box-shadow: rgb(112 112 112 / 20%) 0px 5px 15px;
+	${({ theme }) => theme.shadow};
 	transition: all 0.5s;
 	margin: 0 auto;
 	z-index: 100;

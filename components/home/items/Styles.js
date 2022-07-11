@@ -34,7 +34,7 @@ export const StyledCard = styled.div`
 	min-height: 22.4rem;
 	width: 100%;
 	max-width: 20.25rem;
-	box-shadow: rgb(112 112 112 / 20%) 0px 5px 15px;
+	${({ theme }) => theme.shadow};
 	text-align: center;
 	display: flex;
 	align-items: center;
