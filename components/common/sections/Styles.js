@@ -185,6 +185,18 @@ export const StyledBlogHeader = styled.h1`
 				return css`
 					margin-bottom: 2rem;
 				`;
+			case 'contactForm':
+				return css`
+					margin-bottom: 2rem;
+					margin-top: 3rem;
+					color: ${({ theme }) => theme.white};
+
+					@media (min-width: ${({ theme }) => theme.breakpoints.lg}) {
+						margin-top: 4.25rem;
+						margin-left: 0;
+						text-align: left;
+					}
+				`;
 			case 'offersCard':
 				return css`
 					margin-bottom: 2rem;
@@ -360,6 +372,13 @@ export const StyledHr = styled.hr`
 			case 'article':
 				return css`
 					margin-bottom: 2rem;
+				`;
+			case 'contactForm':
+				return css`
+					margin-bottom: 2rem;
+					@media (min-width: ${({ theme }) => theme.breakpoints.lg}) {
+						margin-left: 0;
+					}
 				`;
 			case 'blog':
 				return css`

@@ -20,5 +20,11 @@
 	"details": "Details",
 	"job.offer": "Job offers",
 	"send": "Wyślij",
-	"offer.back": "Back to offers"
+	"offer.back": "Back to offers",
+	"contact.header": "Contact with us",
+	"attach.cv": "Załącz CV",
+	"any.question": "Do you have any question?",
+	"full.name": "Full name",
+	"message": "Message",
+	"phone": "Phone"
 }

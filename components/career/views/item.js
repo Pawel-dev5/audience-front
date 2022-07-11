@@ -58,10 +58,10 @@ const CareerItem = ({ city, content, disclaimer, formHeader, header }) => {
 						{formHeader && <StyledFormHeader>{formHeader}</StyledFormHeader>}
 
 						<StyledForm>
-							<StyledInput type="name" name="name" placeholder="Full name" />
+							<StyledInput type="name" name="name" placeholder={t('full.name')} />
 							<StyledInput type="email" name="email" placeholder="Email" />
-							<Button text="Załącz Cv" onClick={() => {}} />
-							<StyledTextArea type="textarea" name="text" placeholder="Do you have any question?" />
+							<Button text={t('attach.cv')} onClick={() => {}} />
+							<StyledTextArea type="textarea" name="text" placeholder={t('any.question')} />
 
 							{disclaimer && (
 								<StyledDicsWrapper>
