@@ -190,6 +190,11 @@ export const StyledBlogHeader = styled.h1`
 					margin-left: 0;
 					margin-bottom: 2rem;
 					margin-top: 2rem;
+
+					@media (max-width: ${({ theme }) => theme.breakpoints.lg}) {
+						margin: 0 auto;
+						margin-bottom: 2rem;
+					}
 				`;
 			case 'contactForm':
 				return css`
@@ -383,6 +388,10 @@ export const StyledHr = styled.hr`
 				return css`
 					margin: initial;
 					margin-bottom: 3.25rem;
+					@media (max-width: ${({ theme }) => theme.breakpoints.lg}) {
+						margin: 0 auto;
+						margin-bottom: 2rem;
+					}
 				`;
 			case 'contactForm':
 				return css`

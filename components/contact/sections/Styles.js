@@ -50,6 +50,9 @@ export const StyledMapBlockWrapper = styled.div`
 		margin-top: 50px;
 		flex-direction: column-reverse;
 		align-items: center;
+		* {
+			text-align: center;
+		}
 		iframe {
 			width: 90%;
 			margin-top: 50px;
@@ -120,6 +123,8 @@ export const StyledRegisterWrapper = styled.div`
 
 	@media (max-width: ${({ theme }) => theme.breakpoints.md}) {
 		flex-direction: column;
+		align-items: center;
+		text-align: center;
 		gap: 47px;
 		width: 90%;
 
@@ -127,7 +132,7 @@ export const StyledRegisterWrapper = styled.div`
 			max-width: 100%;
 		}
 		> div:nth-child(2) {
-			max-width: 100%;
+			max-width: 80%;
 		}
 	}
 `;
