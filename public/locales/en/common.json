@@ -19,12 +19,15 @@
 	"more": "More",
 	"details": "Details",
 	"job.offer": "Job offers",
-	"send": "Wyślij",
+	"send": "Send",
 	"offer.back": "Back to offers",
 	"contact.header": "Contact with us",
 	"attach.cv": "Załącz CV",
 	"any.question": "Do you have any question?",
 	"full.name": "Full name",
+	"full.name.required": "Full name is required",
+	"request.success": "Thank you for your message, we will contact you as soon as possible.",
 	"message": "Message",
+	"send.success": "Form successfully sent!",
 	"phone": "Phone"
 }

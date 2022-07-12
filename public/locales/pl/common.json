@@ -25,6 +25,9 @@
 	"attach.cv": "Załącz CV",
 	"any.question": "Masz jakieś pytania?",
 	"full.name": "Imię i nazwisko",
+	"full.name.required": "Imię i nazwisko jest wymagane",
+	"request.success": "Dziękujemy za wiadomość, skontaktujemy się najszybciej jak to możliwe.",
 	"message": "Wiadomość",
+	"send.success": "Formularz pomyślnie wysłany!",
 	"phone": "Telefon"
 }

@@ -185,6 +185,12 @@ export const StyledBlogHeader = styled.h1`
 				return css`
 					margin-bottom: 2rem;
 				`;
+			case 'mapBlock':
+				return css`
+					margin-left: 0;
+					margin-bottom: 2rem;
+					margin-top: 2rem;
+				`;
 			case 'contactForm':
 				return css`
 					margin-bottom: 2rem;
@@ -372,6 +378,11 @@ export const StyledHr = styled.hr`
 			case 'article':
 				return css`
 					margin-bottom: 2rem;
+				`;
+			case 'mapBlock':
+				return css`
+					margin: initial;
+					margin-bottom: 3.25rem;
 				`;
 			case 'contactForm':
 				return css`

@@ -55,6 +55,12 @@ export const StyledCheckboxWrapper = styled.div`
 `;
 
 export const StyledError = styled.span`
-	align-items: left;
+	margin-top: 2rem;
 	color: ${({ theme }) => theme.red};
+`;
+
+export const StyledSuccessWrapper = styled.div`
+	* {
+		color: ${({ theme }) => theme.white};
+	}
 `;
