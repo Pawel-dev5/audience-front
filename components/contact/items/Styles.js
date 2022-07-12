@@ -30,6 +30,10 @@ export const StyledForm = styled.form`
 		padding-top: 1.8rem;
 	}
 
+	button {
+		margin-bottom: 2rem;
+	}
+
 	@media (max-width: ${({ theme }) => theme.breakpoints.lg}) {
 		padding: 1rem 2rem;
 		padding-bottom: 3rem;

@@ -91,3 +91,48 @@ export const StyledContactWrapper = styled.div`
 		font-size: 1.125rem;
 	}
 `;
+
+export const StyledRegisterWrapper = styled.div`
+	max-width: 1123px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 147px;
+	margin-top: 84px;
+	margin-bottom: 151px;
+
+	* {
+		color: ${({ theme }) => theme.black};
+		font-weight: ${({ theme }) => theme.light};
+	}
+
+	p {
+		font-weight: ${({ theme }) => theme.bold};
+	}
+
+	:first-child {
+		max-width: 224px;
+	}
+	> div:nth-child(2) {
+		max-width: 446px;
+	}
+
+	@media (max-width: ${({ theme }) => theme.breakpoints.md}) {
+		flex-direction: column;
+		gap: 47px;
+		width: 90%;
+
+		:first-child {
+			max-width: 100%;
+		}
+		> div:nth-child(2) {
+			max-width: 100%;
+		}
+	}
+`;
+
+export const StyledSections = styled.div`
+	display: flex;
+	flex-direction: column;
+`;
