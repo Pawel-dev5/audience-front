@@ -6,8 +6,8 @@
     "next/core-web-vitals"
   ],
   "plugins": [
-    "prettier"
-    // "next/babel"
+    "prettier",
+    "next/babel"
   ],
   "env": {
     "jest": true,

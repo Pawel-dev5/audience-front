@@ -141,3 +141,55 @@ export const StyledSections = styled.div`
 	display: flex;
 	flex-direction: column;
 `;
+
+export const StyledBlocksWrapper = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	gap: 3.5rem;
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 2rem 0;
+`;
+
+export const StyledBlock = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	width: 95%;
+	${({ theme }) => theme.shadow};
+	padding: 1rem;
+
+	img {
+		max-width: 278px;
+		width: 100%;
+		height: 35px;
+		object-fit: contain;
+		margin-top: 2rem;
+		margin-bottom: 1.5rem;
+	}
+
+	hr {
+		height: 2px;
+		width: 66px;
+		background: ${({ theme }) => theme.black};
+		margin-bottom: 2.2rem;
+	}
+
+	* {
+		color: ${({ theme }) => theme.black};
+	}
+`;
+
+export const StyledLinkWrapper = styled.div`
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-top: 2rem;
+	margin-right: 1rem;
+`;

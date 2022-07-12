@@ -1,12 +1,12 @@
 // SECTIONS
-import { Header, MapBlock, Register } from '../sections';
+import { Header, MapBlock, Register, Blocks } from '../sections';
 
-const Contact = ({ image, blocks, seo, register, map, disclaimer }) => (
+const Contact = ({ image, blocks, register, map, disclaimer }) => (
 	<div>
 		{image && <Header image={image} disclaimer={disclaimer} />}
 		{map && <MapBlock {...map} />}
 		{register && <Register {...register} />}
-		<div>Blocks</div>
+		{blocks && <Blocks items={blocks?.item} />}
 	</div>
 );
 
