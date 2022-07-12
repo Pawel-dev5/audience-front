@@ -1,5 +1,4 @@
 // ASSETS
-import In from '../../../assets/inBlack.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 // HELPERS

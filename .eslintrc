@@ -7,7 +7,7 @@
   ],
   "plugins": [
     "prettier",
-    "next/babel"
+    // "next/babel"
   ],
   "env": {
     "jest": true,

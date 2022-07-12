@@ -11,9 +11,9 @@ const MapBlock = ({ adress, contact, header, mapLink }) => (
 				src={mapLink}
 				width="549"
 				height="517"
-				allowfullscreen=""
+				allowFullScreen=""
 				loading="lazy"
-				referrerpolicy="no-referrer-when-downgrade"
+				referrerPolicy="no-referrer-when-downgrade"
 			/>
 		)}
 

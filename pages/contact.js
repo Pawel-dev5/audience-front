@@ -10,7 +10,6 @@ import { Contact as ContactPage } from '../components/contact';
 const Contact = ({ global, pageData }) => (
 	<Layout global={global?.attributes} seo={pageData?.seo}>
 		<ContactPage {...pageData} />
-		{console.log(pageData)}
 	</Layout>
 );
 

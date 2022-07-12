@@ -29,5 +29,6 @@
 	"request.success": "Thank you for your message, we will contact you as soon as possible.",
 	"message": "Message",
 	"send.success": "Form successfully sent!",
-	"phone": "Phone"
+	"phone": "Phone",
+	"go.to.page": "go to page"
 }
