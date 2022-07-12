@@ -19,7 +19,7 @@ const PrivacyPolicy = ({ global, pageData }) => {
 };
 
 export const getServerSideProps = async ({ locale }) => {
-	const pageDataRes = await fetchAPI('/polityka-prywatnosci', {
+	const pageDataRes = await fetchAPI('/advertising-services-privacy-policy', {
 		locale,
 		populate: 'deep',
 	});
