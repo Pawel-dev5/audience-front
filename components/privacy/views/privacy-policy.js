@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 
 // COMPONENTS
@@ -12,12 +13,17 @@ const PrivacyPolicy = ({ content, header }) => (
 			<>
 				<HeaderWithBottom header={header} />
 
-				{content?.map(({ title, content }) => (
-					<div>
-						<StyledTitle>{title}</StyledTitle>
-						<ReactMarkdown children={content} />
-					</div>
-				))}
+				<div>
+					{content?.map(({ title, content, id }) => {
+						const [active, setActive] = useState(false);
+						return (
+							<div key={id}>
+								<StyledTitle onClick={() => setActive(!active)}>{title}</StyledTitle>
+								{active && content && <ReactMarkdown children={content} />}
+							</div>
+						);
+					})}
+				</div>
 			</>
 		)}
 	</StyledPrivacyWrapper>
